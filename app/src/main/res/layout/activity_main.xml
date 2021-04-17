@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#5B0CE8"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/sinup_bg"
+        android:layout_margin="15dp"
+        android:padding="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <EditText
+                android:id="@+id/fnameET"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="Enter first name"
+                android:inputType="textPersonName"
+                android:background="@drawable/edittext_bg"
+                android:padding="10dp"/>
+            <EditText
+                android:id="@+id/lnameET"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="Enter last name"
+                android:inputType="textPersonName"
+                android:background="@drawable/edittext_bg"
+                android:padding="10dp"/>
+
+
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/emailET"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter you email"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/edittext_bg"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/phoneET"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter you phone no"
+            android:inputType="phone"
+            android:background="@drawable/edittext_bg"
+            android:padding="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <EditText
+                android:id="@+id/passwordET"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="Enter password"
+                android:inputType="textPassword"
+                android:background="@drawable/edittext_bg"
+                android:padding="10dp"/>
+            <EditText
+                android:id="@+id/rpasswordET"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="Retype password"
+                android:inputType="textPassword"
+                android:background="@drawable/edittext_bg"
+                android:padding="10dp"/>
+        </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/signupBTN"
+            android:layout_margin="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:background="#4CAF50"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Signup" />
+    </LinearLayout>
+
+
+</LinearLayout>

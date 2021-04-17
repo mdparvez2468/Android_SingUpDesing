@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#5B0CE8"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:id="@+id/name"
+            android:text="Name: Md Parvez"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:background="#536CF6"
+            android:textColor="#FFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/email"
+            android:text="Email: parvez@gmail.com"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:background="#536CF6"
+            android:textColor="#FFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/phone"
+            android:text="Phone No: 01736194336"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:background="#536CF6"
+            android:textColor="#FFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
